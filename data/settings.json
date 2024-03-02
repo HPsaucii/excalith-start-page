@@ -33,9 +33,9 @@
 		"ctrlC": true,
 		"placeholder": ":3",
 		"placeholderColor": "gray",
-		"userColor": "green",
+		"userColor": "#cba6f7",
 		"atColor": "gray",
-		"hostColor": "magenta",
+		"hostColor": "#cba6f7",
 		"promptColor": "magenta",
 		"promptSymbol": "❯",
 		"caretColor": "green",
@@ -71,18 +71,13 @@
 		"shortcuts": [
 			{
 				"alias": "g",
-				"name": "Google Search",
-				"url": "https://google.com/search?q={}"
+				"name": "Gruble Search",
+				"url": "https://gruble.de/search?q={}"
 			},
 			{
 				"alias": "d",
 				"name": "DuckDuckGo Search",
 				"url": "https://duckduckgo.com/?q={}"
-			},
-			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
 			},
 			{
 				"alias": "gh",
