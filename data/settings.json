@@ -31,7 +31,7 @@
 	},
 	"prompt": {
 		"ctrlC": true,
-		"placeholder": "command...",
+		"placeholder": ":3",
 		"placeholderColor": "gray",
 		"userColor": "green",
 		"atColor": "gray",
