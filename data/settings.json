@@ -1,7 +1,7 @@
 {
 	"username": "Excalith",
 	"theme": {
-		"name": "Default",
+		"name": "Cattpuccin Mocha",
 		"backgroundColor": "#121317",
 		"windowColor": "#1e212b",
 		"textColor": "#e2e2e2",
@@ -23,11 +23,11 @@
 	},
 	"terminal": {
 		"fixedHeight": true,
-		"windowGlow": true,
+		"windowGlow": false,
 		"windowGlowColor": "#291f3325",
 		"textGlow": false,
-		"opacity": 0,
-		"blur": 16
+		"opacity": 0.8,
+		"blur": 0
 	},
 	"prompt": {
 		"ctrlC": true,
