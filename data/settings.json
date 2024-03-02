@@ -65,7 +65,7 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q=",
+		"default": "https://www.gruble.de/search?q=",
 		"target": "_self",
 		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
 		"shortcuts": [
