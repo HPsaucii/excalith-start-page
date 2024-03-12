@@ -5,7 +5,7 @@
 		"backgroundColor": "#11111b",
 		"windowColor": "#1e1e2e",
 		"textColor": "#cdd6f4",
-		"black": "#45475A",
+		"black": "#1e1e2e",
 		"red": "#f38ba8",
 		"green": "#a6e3a1",
 		"yellow": "#f9e2af",
@@ -41,12 +41,12 @@
 		"promptSymbol": "❯",
 		"caretColor": "magenta",
 		"selectionBg": "magenta",
-		"selectionFg": "windowColor"
+		"selectionFg": "black"
 	},
 	"fetch": {
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
-		"titleColor": "#cba6f7ff",
+		"titleColor": "magenta",
 		"image": "assets/pfp.webp",
 		"data": [
 			"Time: {time}",
