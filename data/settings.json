@@ -25,7 +25,7 @@
 		"fixedHeight": true,
 		"windowGlow": false,
 		"windowGlowColor": "#cba6f7ff",
-		"windowGlowBrightness": "0.02"
+		"windowGlowBrightness": "0.02",
 		"textGlow": false,
 		"opacity": 0.8,
 		"blur": 0
