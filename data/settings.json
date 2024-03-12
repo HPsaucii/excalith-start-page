@@ -33,19 +33,19 @@
 		"ctrlC": true,
 		"placeholder": ":3",
 		"placeholderColor": "gray",
-		"userColor": "#cba6f7",
-		"atColor": "#cba6f7",
-		"hostColor": "#cba6f7",
-		"promptColor": "#cba6f7",
+		"userColor": "#cba6f7ff",
+		"atColor": "#cba6f7ff",
+		"hostColor": "#cba6f7ff",
+		"promptColor": "#cba6f7ff",
 		"promptSymbol": "❯",
 		"caretColor": "green",
-		"selectionBg": "#cba6f7",
-		"selectionFg": "#1e1e2e"
+		"selectionBg": "#cba6f7ff",
+		"selectionFg": "#1e1e2eff"
 	},
 	"fetch": {
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
-		"titleColor": "#cba6f7",
+		"titleColor": "#cba6f7ff",
 		"image": "assets/pfp.webp",
 		"data": [
 			"Time: {time}",
@@ -62,7 +62,7 @@
 	},
 	"urlLaunch": {
 		"target": "_self",
-		"hoverColor": "#cba6f7"
+		"hoverColor": "#cba6f7ff"
 	},
 	"search": {
 		"default": "https://www.gruble.de/search?q=",
