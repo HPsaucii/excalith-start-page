@@ -16,15 +16,15 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/background.png",
+		"url": "assets/background.webp",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
 	},
 	"terminal": {
 		"fixedHeight": true,
-		"windowGlow": false,
-		"windowGlowColor": "#291f3325",
+		"windowGlow": true,
+		"windowGlowColor": "#cba6f7ff",
 		"textGlow": false,
 		"opacity": 0.8,
 		"blur": 0
@@ -37,7 +37,7 @@
 		"atColor": "gray",
 		"hostColor": "green",
 		"promptColor": "magenta",
-		"promptSymbol": "❯",
+		"promptSymbol": "󰊟",
 		"caretColor": "green",
 		"selectionBg": "yellow",
 		"selectionFg": "black"
@@ -46,7 +46,7 @@
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
 		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
+		"image": "assets/pfp.webp",
 		"data": [
 			"Time: {time}",
 			"Date: {date}",
@@ -75,7 +75,7 @@
 				"url": "https://gruble.de/search?q={}"
 			},
 			{
-				"alias": "d",
+				"alias": "dfg",
 				"name": "DuckDuckGo Search",
 				"url": "https://duckduckgo.com/?q={}"
 			},
