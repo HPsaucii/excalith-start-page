@@ -23,7 +23,7 @@
 	},
 	"terminal": {
 		"fixedHeight": true,
-		"windowGlow": true,
+		"windowGlow": false,
 		"windowGlowColor": "#cba6f7ff",
 		"textGlow": false,
 		"opacity": 0.8,
@@ -37,7 +37,7 @@
 		"atColor": "gray",
 		"hostColor": "green",
 		"promptColor": "magenta",
-		"promptSymbol": "󰊟",
+		"promptSymbol": "󰊟 ",
 		"caretColor": "green",
 		"selectionBg": "yellow",
 		"selectionFg": "black"
@@ -75,27 +75,32 @@
 				"url": "https://gruble.de/search?q={}"
 			},
 			{
-				"alias": "dfg",
+				"alias": "ddg",
+				"target": "_self",
 				"name": "DuckDuckGo Search",
 				"url": "https://duckduckgo.com/?q={}"
 			},
 			{
 				"alias": "gh",
+				"target": "_self",
 				"name": "Github Search",
 				"url": "https://github.com/search?q={}"
 			},
 			{
 				"alias": "s",
+				"target": "_self",
 				"name": "Stack Overflow Search",
 				"url": "https://stackoverflow.com/search?q={}"
 			},
 			{
 				"alias": "r",
+				"target": "_self",
 				"name": "Subreddit Search",
 				"url": "https://reddit.com/r/{}"
 			},
 			{
 				"alias": "w",
+				"target": "_self",
 				"name": "Wikipedia Search",
 				"url": "https://en.wikipedia.org/wiki/{}"
 			}
