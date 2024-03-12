@@ -10,7 +10,7 @@
 		"green": "#a6e3a1",
 		"yellow": "#f9e2af",
 		"blue": "#89b4fa",
-		"magenta": "#f5c2e7",
+		"magenta": "#cba6f7",
 		"cyan": "#94e2d5",
 		"white": "#bac2de",
 		"gray": "#97989d"
@@ -25,6 +25,7 @@
 		"fixedHeight": true,
 		"windowGlow": false,
 		"windowGlowColor": "#cba6f7ff",
+		"windowGlowBrightness": "0.02"
 		"textGlow": false,
 		"opacity": 0.8,
 		"blur": 0
@@ -33,14 +34,14 @@
 		"ctrlC": true,
 		"placeholder": ":3",
 		"placeholderColor": "gray",
-		"userColor": "#cba6f7ff",
-		"atColor": "#cba6f7ff",
-		"hostColor": "#cba6f7ff",
-		"promptColor": "#cba6f7ff",
+		"userColor": "magenta",
+		"atColor": "magenta",
+		"hostColor": "magenta",
+		"promptColor": "magenta",
 		"promptSymbol": "❯",
-		"caretColor": "green",
-		"selectionBg": "#cba6f7ff",
-		"selectionFg": "#1e1e2eff"
+		"caretColor": "magenta",
+		"selectionBg": "magenta",
+		"selectionFg": "windowColor"
 	},
 	"fetch": {
 		"timeFormat": "HH:mm",
@@ -63,6 +64,42 @@
 	"urlLaunch": {
 		"target": "_self",
 		"hoverColor": "#cba6f7ff"
+	},
+	"search": {
+		"default": "https://www.gruble.de/search?q=",
+		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
+		"shortcuts": [
+			{
+				"alias": "g",
+				"name": "Gruble Search",
+				"url": "https://gruble.de/search?q={}"
+			},
+			{
+				"alias": "ddg",
+				"name": "DuckDuckGo Search",
+				"url": "https://duckduckgo.com/?q={}"
+			},
+			{
+				"alias": "gh",
+				"name": "Github Search",
+				"url": "https://github.com/search?q={}"
+			},
+			{
+				"alias": "s",
+				"name": "Stack Overflow Search",
+				"url": "https://stackoverflow.com/search?q={}"
+			},
+			{
+				"alias": "r",
+				"name": "Subreddit Search",
+				"url": "https://reddit.com/r/{}"
+			},
+			{
+				"alias": "w",
+				"name": "Wikipedia Search",
+				"url": "https://en.wikipedia.org/wiki/{}"
+			}
+		]
 	},
 	"search": {
 		"default": "https://www.gruble.de/search?q=",
