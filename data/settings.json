@@ -73,69 +73,38 @@
 			{
 				"alias": "g",
 				"name": "Gruble Search",
-				"url": "https://gruble.de/search?q={}"
+				"url": "https://gruble.de/search?q={}",
+				"target": "_self"
 			},
 			{
 				"alias": "ddg",
 				"name": "DuckDuckGo Search",
-				"url": "https://duckduckgo.com/?q={}"
+				"url": "https://duckduckgo.com/?q={}",
+				"target": "_self"
 			},
 			{
 				"alias": "gh",
 				"name": "Github Search",
-				"url": "https://github.com/search?q={}"
+				"url": "https://github.com/search?q={}",
+				"target": "_self"
 			},
 			{
 				"alias": "s",
 				"name": "Stack Overflow Search",
-				"url": "https://stackoverflow.com/search?q={}"
+				"url": "https://stackoverflow.com/search?q={}",
+				"target": "_self"
 			},
 			{
 				"alias": "r",
 				"name": "Subreddit Search",
-				"url": "https://reddit.com/r/{}"
+				"url": "https://reddit.com/r/{}",
+				"target": "_self"
 			},
 			{
 				"alias": "w",
 				"name": "Wikipedia Search",
-				"url": "https://en.wikipedia.org/wiki/{}"
-			}
-		]
-	},
-	"search": {
-		"default": "https://www.gruble.de/search?q=",
-		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
-		"shortcuts": [
-			{
-				"alias": "g",
-				"name": "Gruble Search",
-				"url": "https://gruble.de/search?q={}"
-			},
-			{
-				"alias": "ddg",
-				"name": "DuckDuckGo Search",
-				"url": "https://duckduckgo.com/?q={}"
-			},
-			{
-				"alias": "gh",
-				"name": "Github Search",
-				"url": "https://github.com/search?q={}"
-			},
-			{
-				"alias": "s",
-				"target": "_self",
-				"name": "Stack Overflow Search",
-				"url": "https://stackoverflow.com/search?q={}"
-			},
-			{
-				"alias": "r",
-				"name": "Subreddit Search",
-				"url": "https://reddit.com/r/{}"
-			},
-			{
-				"alias": "w",
-				"name": "Wikipedia Search",
-				"url": "https://en.wikipedia.org/wiki/{}"
+				"url": "https://en.wikipedia.org/wiki/{}",
+				"target": "_self"
 			}
 		]
 	},
